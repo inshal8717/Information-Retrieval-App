@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure it takes up the full screen height */
+    text-align: center; /* Center-align text */
+    padding: 20px;
+    background-color: #d7f9ff; /* Optional: add a light background */
+  }
+
+
+.title{
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(16, 147, 255, 0.68);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+

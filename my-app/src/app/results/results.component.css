@@ -1,0 +1,24 @@
+.results-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .result-card {
+    padding: 16px;
+  }
+  
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .no-results {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

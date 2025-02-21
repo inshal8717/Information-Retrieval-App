@@ -1,0 +1,10 @@
+
+<div class="title">
+ <h1>Info Retrieval Application</h1>
+</div>
+<br>
+
+<mat-card>
+  <app-search (searchEvent)="handleSearch($event)"></app-search>
+  <app-results [results]="results" [loading]="loading"></app-results>
+</mat-card>
