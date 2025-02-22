@@ -12,19 +12,9 @@ import { MatCardModule } from '@angular/material/card';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  results: { title: string; description: string }[] = [];
-  loading: boolean = false;
+  results: any[] = [];
 
-  handleSearch(query: string) {
-    this.loading = true;
-
-    // Simulate an API call
-    setTimeout(() => {
-      this.results = [
-        { title: 'Result 1', description: `This is the first result for "${query}"` },
-        { title: 'Result 2', description: `This is the second result for "${query}"` },
-      ];
-      this.loading = false;
-    }, 2000);
+  updateResults(results: any[]): void {
+    this.results = results;
   }
 }

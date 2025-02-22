@@ -11,6 +11,6 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./results.component.css'],
 })
 export class ResultsComponent {
-  @Input() results: { title: string; description: string }[] = [];
-  @Input() loading: boolean = false;
+  @Input() results: any[] = [];
+  loading = false;
 }
